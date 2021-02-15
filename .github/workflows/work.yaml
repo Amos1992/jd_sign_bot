@@ -2,11 +2,11 @@ name: Github JD-sign bot
 
 on:
     schedule:
-        - cron: '12 17 * * *'
-    push:
-        branches:
-            - master
-    workflow_dispatch: # 自动触发
+        - cron: '14 17 * * *'
+    #push:
+        #branches:
+           # - master
+   # workflow_dispatch: # 自动触发
     
 jobs:
     build:
