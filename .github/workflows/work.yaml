@@ -1,12 +1,13 @@
 name: Github JD-sign bot
 
 on:
+    
+    schedule:
+        - cron: '10 18 * * *'
     push:
         branches:
             - main
     workflow_dispatch: # 手动触发
-    schedule:
-        - cron: '05 18 * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
