@@ -4,9 +4,9 @@ on:
     push:
         branches:
             - main
-    workflow_dispatch: # 手动触发
+    workflow_dispatch: # 自动触发
     schedule:
-        - cron: '00 22 * * *'
+        - cron: '08 16 * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
