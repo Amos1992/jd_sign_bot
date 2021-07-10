@@ -5,8 +5,8 @@ on:
         branches:
             - main
     workflow_dispatch: # 自动触发
-    schedule:
-        - cron: '28 22 * * *'
+#     schedule:
+#         - cron: '28 22 * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
